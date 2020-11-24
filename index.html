@@ -49,9 +49,9 @@
     $(window).on('scroll',function(){
     winScrollTop = $(this).scrollTop();
     if (winScrollTop >= startPos) {
-        $('.site-header').addClass('hide');
+        $('header').addClass('hide');
     } else {
-        $('.site-header').removeClass('hide');
+        $('header').removeClass('hide');
     }
     startPos = winScrollTop;
     });

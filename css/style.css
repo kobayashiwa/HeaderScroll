@@ -25,6 +25,11 @@ ul, li {
 /** header **/
 header {
 	width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	transition: .5s;
+	z-index: 999;
 }
 header .container {
 	padding: 16px 0;
@@ -39,12 +44,6 @@ header h1 img {
 }
 header li {
 	padding: 0 12px;
-}
-.site-header {
-	background: #fff;
-	position: fixed;
-	top: 0;
-	transition: .5s;
 }
 
 /** promotion-wrapper **/
@@ -99,5 +98,6 @@ h3 {
 
 /** contents **/
 .contents h3 {
+	font-size: 32px;
 	margin-top: 80px;
 }
