@@ -25,6 +25,7 @@ ul, li {
 /** header **/
 header .container {
 	padding: 16px 0;
+	align-items: center;
 }
 header h1 {
 	height: 60px;
