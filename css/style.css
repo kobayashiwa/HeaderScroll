@@ -38,8 +38,9 @@ header li {
 	padding: 0 12px;
 }
 .site-header {
-	background: rgba(255,255,255,0.8);
+	background: #fff;
 	position: fixed;
+	top: 0;
 }
 
 /** promotion-wrapper **/
@@ -90,4 +91,9 @@ h3 {
 	border-right: 1px solid #fff;
 	transform: rotate(45deg);
 	margin-top: -4px;
+}
+
+/** contents **/
+.contents h3 {
+	margin-top: 80px;
 }
