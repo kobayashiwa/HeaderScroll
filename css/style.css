@@ -23,8 +23,11 @@ ul, li {
 	display: flex;
 }
 /** header **/
+header .container {
+	padding: 16px 0;
+}
 header h1 {
-	height: 80px;
+	height: 60px;
 }
 header h1 img {
 	height: 100%;
