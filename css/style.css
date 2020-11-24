@@ -23,6 +23,9 @@ ul, li {
 	display: flex;
 }
 /** header **/
+header {
+	width: 100%;
+}
 header .container {
 	padding: 16px 0;
 	align-items: center;
@@ -41,6 +44,7 @@ header li {
 	background: #fff;
 	position: fixed;
 	top: 0;
+	transition: .5s;
 }
 
 /** promotion-wrapper **/
