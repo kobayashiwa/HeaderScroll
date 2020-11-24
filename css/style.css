@@ -34,7 +34,11 @@ header h1 {
 header h1 img {
 	height: 100%;
 }
+header li {
+	padding: 0 12px;
+}
 
+/** promotion-wrapper **/
 .promotion-wrapper {
 	background-image: url(../image/untitled06.jpg);
 	background-size: cover;
